@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/image\ weather.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main {
+  border: none;
+  padding: 4rem;
+  border-radius: 30px;
+  background: #000000b8;
+  /* opacity: 0.7; */
+}
+
+.card {
+  margin: 1rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.list-group {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+#desc {
+  text-transform: capitalize;
+}
+
+.fa-magnifying-glass {
+  font-size: 2rem;
+  border: none;
+  background: #000000b8;
+  color: white;
+}
+
+button {
+  border: none;
+}
+
+input {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
